@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Wrapper from './components/Wrapper/Wrapper.js'
-import image from "./CBRE.jpg"
 
 function App() {
   return (
@@ -11,13 +10,15 @@ function App() {
           <p>CBRE</p> 
         </div>  
         <div className='OtherHeaders'>
-          <span>Services</span>
-          <span style='margin-right:3em;'>Insights & Research</span>
-          <span>Properties</span>
-          <span>Offices</span>
-          <span>Careers</span>
-          <span>About Us</span>
+          <span className="S">Services</span>
+          <span className="I">Insights & Research</span>
+          <span className="P">Properties</span>
+          <span className="O">Offices</span>
+          <span className="C">Careers</span>
+          <span className="A">About Us</span>
         </div>
+
+        
           
 
       </div>
