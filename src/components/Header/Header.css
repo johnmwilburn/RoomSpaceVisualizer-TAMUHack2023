@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+    width: -webkit-fill-available;
+    margin: center;
+    padding-bottom: 15px;
+    border-bottom: solid #003F2D 5px;
+}
+
+.header__title{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}

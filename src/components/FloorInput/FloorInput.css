@@ -1,0 +1,39 @@
+.floor-input{
+    width: 100px,
+}
+
+.floor-input_title{
+    font-size: 10,
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    /* grid-gap: 10px; */
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+input{
+    width: 100px;
+}

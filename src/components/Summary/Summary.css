@@ -1,0 +1,30 @@
+.summary-row{
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* center columns */
+    justify-items: center;
+}
+.summary-col{
+    width: 75px;
+    height: 75px;
+    border: 1px solid #003F2D;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.team-id{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
